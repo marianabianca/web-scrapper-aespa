@@ -1,0 +1,19 @@
+Hello, world!
+foi 1
+[
+  CDPElementHandle { handle: CDPJSHandle {} },
+  CDPElementHandle { handle: CDPJSHandle {} }
+]
+foi 2
+[ CDPElementHandle { handle: CDPJSHandle {} } ]
+foi 3
+[ CDPElementHandle { handle: CDPJSHandle {} } ]
+foi 4
+[ CDPElementHandle { handle: CDPJSHandle {} } ]
+foi 5
+Error [SyntaxError]: Unexpected end of input
+    at ExecutionContext._ExecutionContext_evaluate (/Users/marianabianca/Documents/aespa/node_modules/puppeteer-core/lib/cjs/puppeteer/common/ExecutionContext.js:232:55)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async ExecutionContext.evaluate (/Users/marianabianca/Documents/aespa/node_modules/puppeteer-core/lib/cjs/puppeteer/common/ExecutionContext.js:145:16)
+    at async CDPJSHandle.evaluate (/Users/marianabianca/Documents/aespa/node_modules/puppeteer-core/lib/cjs/puppeteer/common/JSHandle.js:60:16)
+    at async /Users/marianabianca/Documents/aespa/index.js:52:21
